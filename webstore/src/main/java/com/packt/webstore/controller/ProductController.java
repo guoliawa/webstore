@@ -31,7 +31,6 @@ import com.packt.webstore.service.ProductService;
 import com.packt.webstore.validator.ProductValidator;
 import com.packt.webstore.validator.UnitsInStockValidator;
 
-;
 
 @Controller
 @RequestMapping("/products")

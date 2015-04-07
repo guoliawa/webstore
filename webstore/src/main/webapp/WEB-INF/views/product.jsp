@@ -44,7 +44,7 @@
 				</p>
 				<h4>${product.unitPrice}USD</h4>
 				<p ng-controller="cartCtrl">
-					<a href="#" class="btn btn-warning btn-large" ng-click="addToCart('${product.productId}')"> <span
+					<a href="#" class="btn btn-warning btn-small" ng-click="addToCart('${product.productId}')"> <span
 						class="glyphicon-shopping-cart glyphicon"></span> Order Now
 					</a> <a href="<spring:url value="/cart" />"
 						class="btn btn-default"> <span
@@ -53,8 +53,7 @@
 				</p>
 				<a href="<spring:url value="/products" />" class="btn btn-default">
 					<span class="glyphicon-hand-left glyphicon"></span> back
-				</a> 
-				
+				</a> 				
 			</div>
 		</div>
 	</section>
